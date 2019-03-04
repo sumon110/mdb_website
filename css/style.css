@@ -1,0 +1,39 @@
+.logo{
+width: 100px;
+height: 40px;
+}
+.header{
+    background-image: url('../img/headerImg.jpg');
+    background-size: cover;
+    background-position: center center;
+    height:550px;
+}
+.menubar{
+    opacity: .8;  
+}
+.headerRap{
+    padding-top: 200px;  
+}
+
+.heaerbody{
+    border-radius: 5px;
+}
+@media (max-width: 576px) { 
+    .headerText{
+        font-size: 20px;
+    }
+    .searchForm{
+        padding: 0px !important;
+    }
+    .waves-effect{
+        padding: 8px 0px 8px 0px !important;
+        border-radius: 5px;
+    }
+ }
+ [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 100px !important;
+    color:#270606; 
+    font-style: normal;
+    margin-left: 0px !important;
+}
